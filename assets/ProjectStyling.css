@@ -1,0 +1,133 @@
+#HomeButton{
+    -fx-background-image:url("/project/0.jpg");  
+    -fx-background-size: cover;
+    -fx-font-size: 16px;
+    -fx-pref-width: 220px;
+    -fx-pref-height: 200px;
+    -fx-border-color: white;
+    -fx-border-width: 2px;
+    -fx-border-radius: 10px;    
+    -fx-text-fill: #ff9999;
+    -fx-background-color: #ffffff;
+    -fx-font-weight: bold; 
+    -fx-font-family: cursive;
+
+}
+#appetizerButton{
+    -fx-background-image:url("/project/1.png");  /*The main course photo */
+
+
+    -fx-background-size: cover;
+    -fx-font-size: 16px;
+    -fx-pref-width: 220px;
+    -fx-pref-height: 200px;
+    -fx-border-color: white;
+    -fx-border-width: 2px;
+    -fx-border-radius: 10px;    
+    -fx-text-fill: #ff9999;
+    -fx-background-color: #ffffff;
+    -fx-font-weight: bold; 
+    -fx-font-family: cursive;
+
+
+}
+
+
+#sidesButton{
+    -fx-background-image:url("/project/2.png");/*The sides  photo */
+
+    -fx-background-size: cover;
+    -fx-font-size: 16px;
+    -fx-pref-width: 220px;
+    -fx-pref-height: 200px;
+    -fx-border-color: white;
+    -fx-border-width: 2px;
+    -fx-border-radius: 10px;    
+    -fx-text-fill: #ff9999;
+    -fx-background-color: #ffffff;
+    -fx-font-weight: bold; 
+    -fx-font-family: cursive;
+
+}
+#dessertButton{
+    -fx-background-image:url("/project/3.png");/*The desserts photo */
+    -fx-background-size: cover;
+    -fx-font-size: 16px;
+    -fx-pref-width: 220px;
+    -fx-pref-height: 200px;
+    -fx-border-color: white;
+    -fx-border-width: 2px;
+    -fx-border-radius: 10px;    
+    -fx-text-fill: #ff9999;
+    -fx-background-color: #ffffff;
+    -fx-font-weight: bold; 
+    -fx-font-family: cursive;
+
+}
+#drinkButton{
+    -fx-background-image:url("/project/4.png"); /*The  drinks photo */
+    -fx-background-size: cover;
+    -fx-font-size: 16px;
+    -fx-pref-width: 220px;
+    -fx-pref-height: 200px;
+    -fx-border-color: white;
+    -fx-border-width: 2px;
+    -fx-border-radius: 10px;    
+    -fx-text-fill: #ff9999;
+    -fx-background-color: #ffffff;
+    -fx-font-weight: bold; 
+    -fx-font-family: cursive;
+
+}
+
+.choice-box {
+    -fx-background-color: #F0EDD4;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px;
+    -fx-font-size: 14px;
+}
+
+.choice-box .arrow {
+    -fx-background-color: #007bff;
+    -fx-shape: "M 0 0 L 5 5 L 10 0 Z";
+}
+
+
+.choice-box {
+    -fx-background-color: #F8EAD8;
+    -fx-border-color: white;
+    -fx-font-size: 14px;
+    -fx-prompt-text-fill: gray;
+}
+
+.choice-box > .label { -fx-text-fill: white; }
+.choice-box .context-menu { -fx-background-color: white; }
+.choice-box .menu-item:focused { -fx-background-color: #EDC6B1; }
+.choice-box .menu-item > .label { -fx-text-fill: #99627A; }
+.choice-box .menu-item:focused > .label { -fx-text-fill: white; }
+
+.button{
+
+    -fx-padding: 10px;
+    -fx-font-size: 16px;
+    -fx-transition: all 0.3s ease;
+    -fx-text-fill:  #ff9999;
+    -fx-background-color: #ffffff;
+    -fx-font-weight: bold; 
+    -fx-font-family: cursive;
+    -fx-border-color: #cccccc;
+}
+
+
+.button:pressed:hover {
+    -fx-scale-y: 1;
+    -fx-scale-x: 1;
+    -fx-background-color: #EDC6B1;
+}
+
+.button:hover {
+
+    -fx-scale-y: 1.1;
+
+}

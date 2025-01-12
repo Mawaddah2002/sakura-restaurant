@@ -1,0 +1,23 @@
+.button{
+    -fx-padding: 10px;
+    -fx-font-size: 16px;
+    -fx-transition: all 0.3s ease;
+    -fx-text-fill:  #ff9999;
+    -fx-background-color: #ffffff;
+    -fx-font-weight: bold; 
+    -fx-font-family: cursive;
+    -fx-border-color: #cccccc;
+}
+
+.root{
+    -fx-background-color: #fef2f4;
+    -fx-background-image: url("img1.jpg");
+}
+
+.img{
+    height: 100%;
+}
+
+.button:pressed:hover {
+    -fx-background-color: #EDC6B1;
+}
