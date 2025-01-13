@@ -33,9 +33,6 @@ SAKURA is an interactive application designed for an Asian restaurant, allowing 
 4. View your order in the Cart Interface, edit as needed, and finalize the order.  
 5. Save the invoice or return to order more.
 
-📹 Demo Video  
-[Watch the Demo](videos/demo.mp4)
-
 📚 Lessons Learned  
 - The importance of teamwork and collaboration in large projects.  
 - Combining programming concepts (event handling, GUI design, database integration) into a cohesive application.  
